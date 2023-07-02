@@ -87,7 +87,9 @@
 
 <div class="flex flex-col items-center justify-center bac">
 	<h1 class="text-white font-bold text-4xl p-14">simplecolorpicker.dev</h1>
-	<div class="flex flex-col sm:flex-row items-start justify-center rounded-md drop-shadow-2xl bg-color p-4">
+	<div
+		class="flex flex-col sm:flex-row items-start justify-center rounded-md drop-shadow-2xl bg-color p-4"
+	>
 		<div class="mr-4 flex flex-row sm:flex-col text-white">
 			<div style="background-color:{color}; height: 100px" class="rounded w-1/2 sm:w-full mb-4" />
 			<!-- <p class="pb-2 text-white text-sm">Chosen color {color}</p> -->
@@ -97,7 +99,7 @@
 					<div class="mb-1 text-white text-sm p-1 border border-transparent">Value:</div>
 					<div class="mb-1 text-white text-sm p-1 border border-transparent">Saturation:</div> -->
 					<div class="mb-1 text-white text-sm p-1 border border-transparent">HEX:</div>
-                    <div class="mb-1 text-white text-sm p-1 border border-transparent">RGB:</div>
+					<div class="mb-1 text-white text-sm p-1 border border-transparent">RGB:</div>
 					<div class="mb-1 text-white text-sm p-1 border border-transparent">HSV:</div>
 					<div class="mb-1 text-white text-sm p-1 border border-transparent">HSL:</div>
 					<div class="mb-1 text-white text-sm p-1 border border-transparent">CMYK:</div>
@@ -111,7 +113,7 @@
 						<input class="bg-color" bind:value={color} maxlength="7" />
 					</div>
 					<div class="mb-1 rounded border p-1">{convert.hex.hsv(color)}</div>
-                    <div class="mb-1 rounded border p-1">{convert.hex.rgb(color)}</div>
+					<div class="mb-1 rounded border p-1">{convert.hex.rgb(color)}</div>
 					<div class="mb-1 rounded border p-1">{convert.hex.hsl(color)}</div>
 					<div class="mb-1 rounded border p-1">{convert.hex.cmyk(color)}</div>
 				</div>
