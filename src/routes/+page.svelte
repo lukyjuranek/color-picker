@@ -86,7 +86,7 @@
 </script>
 
 <div class="flex flex-col items-center justify-center bac">
-	<h1 class="text-white font-bold text-4xl p-14">simplecolorpicker.dev</h1>
+	<h1 class="text-white font-bold text-4xl p-14">pickcolor.site</h1>
 	<div
 		class="flex flex-col sm:flex-row items-start justify-center rounded-md drop-shadow-2xl bg-color p-4"
 	>
